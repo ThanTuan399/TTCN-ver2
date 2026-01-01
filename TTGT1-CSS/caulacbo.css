@@ -1,0 +1,93 @@
+
+.body-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-top-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #6d6459;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 40px;
+}
+.top-name-top{
+    font-size: 50px;
+}
+.top-name-bottom{
+    font-size: 30px;
+    font-weight: 100;
+    color: #7777779e;
+}
+.body-mid-find input{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #adaaaa;
+    outline: none;
+}
+.body-mid-find{
+    display: flex;
+    justify-content: center;
+}
+.body-mid-arrange{
+    display: flex;
+    justify-content: center;
+}
+.arrange-right{
+    border: 1px solid #adaaaa;
+    border-radius: 12px;
+    padding: 10px;
+    width: 24%;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.body-mid-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.body-mid-club{
+    margin: 30px 40px;
+    border: 1px solid grey;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.mid-club-image img{
+    height: 300px;
+}
+.mid-club-name{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 15px;
+}
+.mid-club-info{
+    margin: 15px 30px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.active{
+    border: 1px solid #1fd11f;
+    padding: 5px;
+    border-radius: 10px;
+    color: #1fd11f;
+}
+.notactive{
+    border: 1px solid #dc072c;
+    padding: 5px;
+    border-radius: 10px;
+    color: #dc072c;
+}
+.body-mid-club a{
+    color: black;
+    text-decoration: none;
+}

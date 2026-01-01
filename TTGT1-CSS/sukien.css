@@ -1,0 +1,47 @@
+.body-mid-allskien{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    justify-content: center;
+}
+.body-mid-skien{
+    width: 37%;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px 40px;
+}
+.mid-skien-name{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.mid-skien-info i{
+    margin-right: 10px;
+}
+.skien-info{
+    margin-bottom: 10px;
+}
+.mid-skien-more{
+    background-color: #6d6459;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 15px;
+    color: white;
+    border: 1px solid #6d6459;
+}
+.mid-skien-more a{
+    color: white;
+    text-decoration: none;
+}
+.mid-skien-more:hover{
+    color: #6d6459;
+    background-color: white;
+    border: 1px solid #6d6459;
+    font-weight: 600;
+    cursor: pointer;
+}
+.mid-skien-more:hover.mid-skien-more a{
+    color: #6d6459;
+}

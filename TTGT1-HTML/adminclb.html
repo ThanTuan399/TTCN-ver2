@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/TTGT1-CSS/index.css">
+    <link rel="stylesheet" href="/TTGT1-CSS/adminclb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+            <div class="header-left">HỆ THỐNG QUẢN LÝ CÂU LẠC BỘ VÀ SỰ KIỆN TRƯỜNG ĐẠI HỌC</div>
+            <div class="header-right">
+                <div class="header-right-con">
+                    <a href="index.html">Trang Chủ</a>
+                </div>
+                <div class="header-right-con">
+                    <a href="caulacbo.html">Câu lạc bộ</a>
+                </div>
+                <div class="header-right-con">
+                    <a href="sukien.html">Sự Kiện</a>
+                </div>
+                <div class="header-right-con">
+                    <a href="dangnhap.html">Đăng Xuất</a>
+                </div>
+                <div class="header-right-con ">
+                    <i class="fa-solid fa-bars doimk"></i>
+                    <div class="bongmo"></div>
+                    <div class="more-content bars">
+                        <div class="header-right-top">
+                            <div class="right-top-title">Đổi mật khẩu
+                                <i class="fa-regular fa-circle-xmark tat"></i>
+                            </div>
+                            <div class="right-top-content">Mật khẩu của bạn phải có tối thiểu 6 ký tự</div>
+                        </div>
+                        <div class="header-right-mid">
+                            <div class="right-mid-content">
+                                <form action="" method="get">
+                                    <div class="changemk">
+                                        <input type="text" placeholder="Mật khẩu hiện tại">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="right-mid-content">
+                                <div class="changemk">
+                                    <input type="text" placeholder="Mật khẩu mới">
+                                </div>
+                            </div>
+                            <div class="right-mid-content">
+                                <div class="changemk">
+                                    <input type="text" placeholder="Nhập lại mật khẩu mới">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-right-bottom">
+                            <button type="button">Đổi mật khẩu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="body">
+        <div class="body-top">
+            <div class="banner">
+                <img src="/TTGT1-IMG/biaclbamnhac.png" alt="">
+            </div>
+        </div>
+        <div class="hello">
+            Chào mừng bạn quay lại với Hệ thống Quản lý Câu lạc bộ 
+        </div>
+        <div class="body-bottom">
+            <div class="body-bottom-left">
+                <div class="bottom-left-top">
+                    <div class="left-top-content title">Quản lý</div>
+                    <div class="left-top-content user">Người dùng</div>
+                    <div class="left-top-content post">Tất cả bài đăng</div>
+                    <div class="left-top-content nonepost">Bài đăng chưa duyệt</div>
+                </div>
+            </div>
+            <div class="body-bottom-right">
+                <div class="bottom-right-top">
+                    <div class="right-top-left">
+                        <input type="text" placeholder="Tìm kiếm trong CLB">
+                    </div>
+                </div>
+                <div class="bottom-right-bottom">
+                    <div class="qlyuser hidden">
+                        <div class="right-bottom-title">
+                            <div class="title-left">Tên</div>
+                            <div class="title-mid">Ngày sinh</div>
+                            <div class="title-mid">Ngày gia nhập</div>
+                            <div class="title-right">Số bài đăng</div>
+                        </div>
+                        <div class="right-bottom-content">
+                            <div class="oneuser">
+                                <div class="xoauser">
+                                        <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <button class="delet hidden" type="button">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                        Xóa khỏi CLB
+                                    </button> 
+                                </div>
+                                <div class="content-left">Bui Tien Dat</div>
+                                <div class="content-mid">12/09/2004</div>
+                                <div class="content-mid">12/12/2025</div>
+                                <div class="content-right">3</div>
+                            </div>
+                            <div class="oneuser">
+                                <div class="xoauser">
+                                        <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <button class="delet hidden" type="button">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                        Xóa khỏi CLB
+                                    </button> 
+                                </div>
+                                <div class="content-left">Bui Tien Dat</div>
+                                <div class="content-mid">12/09/2004</div>
+                                <div class="content-mid">12/12/2025</div>
+                                <div class="content-right">3</div>
+                            </div>
+                            <div class="oneuser">
+                                <div class="xoauser">
+                                        <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <button class="delet hidden" type="button">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                        Xóa khỏi CLB
+                                    </button> 
+                                </div>
+                                <div class="content-left">Bui Tien Dat</div>
+                                <div class="content-mid">12/09/2004</div>
+                                <div class="content-mid">12/12/2025</div>
+                                <div class="content-right">3</div>
+                            </div>
+                            <div class="oneuser">
+                                <div class="xoauser">
+                                        <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <button class="delet hidden" type="button">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                        Xóa khỏi CLB
+                                    </button> 
+                                </div>
+                                <div class="content-left">Bui Tien Dat</div>
+                                <div class="content-mid">12/09/2004</div>
+                                <div class="content-mid">12/12/2025</div>
+                                <div class="content-right">3</div>
+                            </div>
+                            <div class="oneuser">
+                                <div class="xoauser">
+                                        <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <button class="delet hidden" type="button">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                        Xóa khỏi CLB
+                                    </button> 
+                                </div>
+                                <div class="content-left">Bui Tien Dat</div>
+                                <div class="content-mid">12/09/2004</div>
+                                <div class="content-mid">12/12/2025</div>
+                                <div class="content-right">3</div>
+                            </div>
+                            <div class="oneuser">
+                                <div class="xoauser">
+                                        <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <button class="delet hidden" type="button">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                        Xóa khỏi CLB
+                                    </button> 
+                                </div>
+                                <div class="content-left">Bui Tien Dat</div>
+                                <div class="content-mid">12/09/2004</div>
+                                <div class="content-mid">12/12/2025</div>
+                                <div class="content-right">3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qlypost">
+                        <div class="detailed-post">
+                            <div class="delete-post">
+                                <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <div class="delet hidden">
+                                            <button type="button">
+                                                <i class="fa-regular fa-circle-xmark"></i>
+                                                Xóa bài viết
+                                            </button>
+                                    </div> 
+                            </div>
+                            <div class="detailed-post-top">
+                                <div class="post-top-left">
+                                    <div class="detailed-post-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="post-top-left">
+                                    <div class="detailed-post-name">Bui Tien Dat</div>
+                                    <div class="detailed-post-day">12 tháng 9</div></div>
+                            </div>
+                            <div class="detailed-post-mid">
+                                Hello cả nhà em là thành viên mới
+                            </div>
+                            <div class="detailed-post-bottom">
+                                <div class="post-bottom-content ">
+                                    <button type="button" class="like-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Thích
+                                    </button>
+                                </div>
+                                <div class="post-bottom-content">
+                                    <i class="fa-regular fa-comment"></i>
+                                    Bình luận
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detailed-post">
+                            <div class="delete-post">
+                                <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <div class="delet hidden">
+                                            <button type="button">
+                                                <i class="fa-regular fa-circle-xmark"></i>
+                                                Xóa bài viết
+                                            </button>
+                                    </div> 
+                            </div>
+                            <div class="detailed-post-top">
+                                <div class="post-top-left">
+                                    <div class="detailed-post-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="post-top-left">
+                                    <div class="detailed-post-name">Bui Tien Dat</div>
+                                    <div class="detailed-post-day">12 tháng 9</div></div>
+                            </div>
+                            <div class="detailed-post-mid">
+                                Hello cả nhà em là thành viên mới
+                            </div>
+                            <div class="detailed-post-bottom">
+                                <div class="post-bottom-content ">
+                                    <button type="button" class="like-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Thích
+                                    </button>
+                                </div>
+                                <div class="post-bottom-content">
+                                    <i class="fa-regular fa-comment"></i>
+                                    Bình luận
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detailed-post">
+                            <div class="delete-post">
+                                <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <div class="delet hidden">
+                                            <button type="button">
+                                                <i class="fa-regular fa-circle-xmark"></i>
+                                               Xóa bài viết
+                                            </button>
+                                    </div> 
+                            </div>
+                            <div class="detailed-post-top">
+                                <div class="post-top-left">
+                                    <div class="detailed-post-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="post-top-left">
+                                    <div class="detailed-post-name">Bui Tien Dat</div>
+                                    <div class="detailed-post-day">12 tháng 9</div></div>
+                            </div>
+                            <div class="detailed-post-mid">
+                                Hello cả nhà em là thành viên mới
+                            </div>
+                            <div class="detailed-post-bottom">
+                                <div class="post-bottom-content ">
+                                    <button type="button" class="like-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Thích
+                                    </button>
+                                </div>
+                                <div class="post-bottom-content">
+                                    <i class="fa-regular fa-comment"></i>
+                                    Bình luận
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detailed-post">
+                            <div class="delete-post">
+                                <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <div class="delet hidden">
+                                            <button type="button">
+                                                <i class="fa-regular fa-circle-xmark"></i>
+                                                Xóa bài viết
+                                            </button>
+                                    </div> 
+                            </div>
+                            <div class="detailed-post-top">
+                                <div class="post-top-left">
+                                    <div class="detailed-post-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="post-top-left">
+                                    <div class="detailed-post-name">Bui Tien Dat</div>
+                                    <div class="detailed-post-day">12 tháng 9</div></div>
+                            </div>
+                            <div class="detailed-post-mid">
+                                Hello cả nhà em là thành viên mới
+                            </div>
+                            <div class="detailed-post-bottom">
+                                <div class="post-bottom-content ">
+                                    <button type="button" class="like-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Thích
+                                    </button>
+                                </div>
+                                <div class="post-bottom-content">
+                                    <i class="fa-regular fa-comment"></i>
+                                    Bình luận
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detailed-post">
+                            <div class="delete-post">
+                                <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <div class="delet hidden">
+                                            <button type="button">
+                                                <i class="fa-regular fa-circle-xmark"></i>
+                                                Xóa bài viết
+                                            </button>
+                                    </div> 
+                            </div>
+                            <div class="detailed-post-top">
+                                <div class="post-top-left">
+                                    <div class="detailed-post-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="post-top-left">
+                                    <div class="detailed-post-name">Bui Tien Dat</div>
+                                    <div class="detailed-post-day">12 tháng 9</div></div>
+                            </div>
+                            <div class="detailed-post-mid">
+                                Hello cả nhà em là thành viên mới
+                            </div>
+                            <div class="detailed-post-bottom">
+                                <div class="post-bottom-content ">
+                                    <button type="button" class="like-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Thích
+                                    </button>
+                                </div>
+                                <div class="post-bottom-content">
+                                    <i class="fa-regular fa-comment"></i>
+                                    Bình luận
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detailed-post">
+                            <div class="delete-post">
+                                <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <div class="delet hidden">
+                                            <button type="button">
+                                                <i class="fa-regular fa-circle-xmark"></i>
+                                                Xóa bài viết
+                                            </button>
+                                    </div> 
+                            </div>
+                            <div class="detailed-post-top">
+                                <div class="post-top-left">
+                                    <div class="detailed-post-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="post-top-left">
+                                    <div class="detailed-post-name">Bui Tien Dat</div>
+                                    <div class="detailed-post-day">12 tháng 9</div></div>
+                            </div>
+                            <div class="detailed-post-mid">
+                                Hello cả nhà em là thành viên mới
+                            </div>
+                            <div class="detailed-post-bottom">
+                                <div class="post-bottom-content ">
+                                    <button type="button" class="like-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Thích
+                                    </button>
+                                </div>
+                                <div class="post-bottom-content">
+                                    <i class="fa-regular fa-comment"></i>
+                                    Bình luận
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detailed-post">
+                            <div class="delete-post">
+                                <i class="fa-solid fa-ellipsis bacham"></i>
+                                    <div class="delet hidden">
+                                            <button type="button">
+                                                <i class="fa-regular fa-circle-xmark"></i>
+                                                Xóa bài viết
+                                            </button>
+                                    </div> 
+                            </div>
+                            <div class="detailed-post-top">
+                                <div class="post-top-left">
+                                    <div class="detailed-post-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="post-top-left">
+                                    <div class="detailed-post-name">Bui Tien Dat</div>
+                                    <div class="detailed-post-day">12 tháng 9</div></div>
+                            </div>
+                            <div class="detailed-post-mid">
+                                Hello cả nhà em là thành viên mới
+                            </div>
+                            <div class="detailed-post-bottom">
+                                <div class="post-bottom-content ">
+                                    <button type="button" class="like-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Thích
+                                    </button>
+                                </div>
+                                <div class="post-bottom-content">
+                                    <i class="fa-regular fa-comment"></i>
+                                    Bình luận
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qlynonepost">
+                        <div class="detailed-post">
+                            <div class="delete-post">
+                                <i class="fa-solid fa-ellipsis bacham"></i>
+                                <div class="delet hidden">
+                                    <button type="button" style="padding-right: 20px;">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                        Xóa bài viết
+                                    </button>
+                                    <button type="button">
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Duyệt bài viết
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="detailed-post-top">
+                                <div class="post-top-left">
+                                    <div class="detailed-post-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="post-top-left">
+                                    <div class="detailed-post-name">Bui Tien Dat</div>
+                                    <div class="detailed-post-day">12 tháng 9</div></div>
+                            </div>
+                            <div class="detailed-post-mid">
+                                Hello cả nhà em là thành viên mới
+                            </div>
+                            <div class="detailed-post-bottom">
+                                <div class="post-bottom-content ">
+                                    <button type="button" class="like-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Thích
+                                    </button>
+                                </div>
+                                <div class="post-bottom-content">
+                                    <i class="fa-regular fa-comment"></i>
+                                    Bình luận
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detailed-post">
+                            <div class="delete-post">
+                                <i class="fa-solid fa-ellipsis bacham"></i>
+                                <div class="delet hidden">
+                                    <button type="button" style="padding-right: 20px;">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                        Xóa bài viết
+                                    </button>
+                                    <button type="button">
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Duyệt bài viết
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="detailed-post-top">
+                                <div class="post-top-left">
+                                    <div class="detailed-post-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="post-top-left">
+                                    <div class="detailed-post-name">Bui Tien Dat</div>
+                                    <div class="detailed-post-day">12 tháng 9</div></div>
+                            </div>
+                            <div class="detailed-post-mid">
+                                Hello cả nhà em là thành viên mới
+                            </div>
+                            <div class="detailed-post-bottom">
+                                <div class="post-bottom-content ">
+                                    <button type="button" class="like-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Thích
+                                    </button>
+                                </div>
+                                <div class="post-bottom-content">
+                                    <i class="fa-regular fa-comment"></i>
+                                    Bình luận
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detailed-post">
+                            <div class="delete-post">
+                                <i class="fa-solid fa-ellipsis bacham"></i>
+                                <div class="delet hidden">
+                                    <button type="button" style="padding-right: 20px;">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                        Xóa bài viết
+                                    </button>
+                                    <button type="button">
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Duyệt bài viết
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="detailed-post-top">
+                                <div class="post-top-left">
+                                    <div class="detailed-post-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="post-top-left">
+                                    <div class="detailed-post-name">Bui Tien Dat</div>
+                                    <div class="detailed-post-day">12 tháng 9</div></div>
+                            </div>
+                            <div class="detailed-post-mid">
+                                Hello cả nhà em là thành viên mới
+                            </div>
+                            <div class="detailed-post-bottom">
+                                <div class="post-bottom-content ">
+                                    <button type="button" class="like-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Thích
+                                    </button>
+                                </div>
+                                <div class="post-bottom-content">
+                                    <i class="fa-regular fa-comment"></i>
+                                    Bình luận
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detailed-post">
+                            <div class="delete-post">
+                                <i class="fa-solid fa-ellipsis bacham"></i>
+                                <div class="delet hidden">
+                                    <button type="button" style="padding-right: 20px;">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                        Xóa bài viết
+                                    </button>
+                                    <button type="button">
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Duyệt bài viết
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="detailed-post-top">
+                                <div class="post-top-left">
+                                    <div class="detailed-post-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="post-top-left">
+                                    <div class="detailed-post-name">Bui Tien Dat</div>
+                                    <div class="detailed-post-day">12 tháng 9</div></div>
+                            </div>
+                            <div class="detailed-post-mid">
+                                Hello cả nhà em là thành viên mới
+                            </div>
+                            <div class="detailed-post-bottom">
+                                <div class="post-bottom-content ">
+                                    <button type="button" class="like-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Thích
+                                    </button>
+                                </div>
+                                <div class="post-bottom-content">
+                                    <i class="fa-regular fa-comment"></i>
+                                    Bình luận
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detailed-post">
+                            <div class="delete-post">
+                                <i class="fa-solid fa-ellipsis bacham"></i>
+                                <div class="delet hidden">
+                                    <button type="button" style="padding-right: 20px;">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                        Xóa bài viết
+                                    </button>
+                                    <button type="button">
+                                        <i class="fa-regular fa-circle-check"></i>
+                                        Duyệt bài viết
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="detailed-post-top">
+                                <div class="post-top-left">
+                                    <div class="detailed-post-img">
+                                        
+                                    </div>
+                                </div>
+                                <div class="post-top-left">
+                                    <div class="detailed-post-name">Bui Tien Dat</div>
+                                    <div class="detailed-post-day">12 tháng 9</div></div>
+                            </div>
+                            <div class="detailed-post-mid">
+                                Hello cả nhà em là thành viên mới
+                            </div>
+                            <div class="detailed-post-bottom">
+                                <div class="post-bottom-content ">
+                                    <button type="button" class="like-btn">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        Thích
+                                    </button>
+                                </div>
+                                <div class="post-bottom-content">
+                                    <i class="fa-regular fa-comment"></i>
+                                    Bình luận
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-con">
+            <div class="title-footer">ĐĂNG KÝ NHẬN TIN</div>
+            <div class="content-footer">
+                Đăng ký ngay và là người đầu tiên nắm được các sự kiện sắp diễn ra và nhiều thông tin hấp dẫn khác.
+            </div>
+            <div class="nhapttin">
+                <input type="text" placeholder="Nhập địa chỉ email">
+                <button>Đăng ký</button>
+            </div>
+            <div style="display: flex;" class="contact">
+                <div><img src="/TTGT1-IMG/icon-01.png" alt=""></div>
+                <div><img src="/TTGT1-IMG/icon-02.png" alt=""></div>
+                <div><img src="/TTGT1-IMG/icon-03.png" alt=""></div>
+            </div>
+        </div>
+        <div class="footer-con">
+            <div>
+                <div class="title-footer">LIÊN HỆ VỚI CHÚNG TÔI</div>
+                <div class="content-footer">
+                    <h5><i class="fa-solid fa-location-dot"></i>Văn phòng :</h5>
+                    <div style="margin-left: 20px;"><span>378 Lĩnh Nam, Phường Trần Phú, Quận Hoàng Mai, TP Hà Nội</span></div>
+                </div>
+            </div>
+            <div class="content-footer"><i class="fa-solid fa-phone-volume"></i>Số điện thoại: 19001234567</div>
+            <div class="content-footer"><i class="fa-solid fa-envelope-open-text"></i>Email: info@example.com</div>
+
+        </div>
+    </div>
+
+    <script src="/TTGT1-JS/adminclb.js"></script>
+</body>
+</html>

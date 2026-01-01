@@ -1,0 +1,176 @@
+.body{
+    display: flex;
+    width: 100%;
+    background-color: #9a979470;
+    padding: 90px 0;
+    position: relative;
+}
+.hinhanh{
+    width: 50%;
+    position: relative;
+}
+.hinhanh img{
+    width: 63%;
+    position: relative;
+    left: 145px;
+}
+.login{
+    background-color: white;
+    height: fit-content;
+    padding-bottom: 40px;
+    border-radius: 12px;
+    width: 600px;
+    justify-content: center;
+}
+.dangnhap{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid #F0F0F0;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+.ttinlogin{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px #ededed solid;
+}
+.email{
+    width: 90%;
+}
+.email input{
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 16px;
+    border: 1px solid #868d95;
+    height: 20px;
+    border-radius: 40px;
+    box-shadow: none;
+    outline: none;
+}
+.email input::placeholder{
+    color: #c6cbd0
+}
+.namee{
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.button{
+    border-radius: 25px;
+    padding: 12px 212px;
+    background-color: #6d6459;
+    color: white;
+    font-weight: 700;
+    margin-top: 15px;  
+}
+.button:hover{
+    color: #6d6459;
+    background-color: white;
+    border: 1px solid #6d6459;
+}
+.or{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.choice{
+    padding: 13px 100px;
+    border: 1px black solid;
+    border-radius: 12px;
+    margin: 0 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.fb{
+    color: white;
+    background: #1877F2;
+}
+.ttindangky{
+    display: none;
+}
+.loginn{
+    border-bottom: 2px solid #6d6459;
+    color: #6d6459;
+}
+.boyy{
+    color: black;
+    text-decoration: none;
+}
+.forgetpw{
+    font-size: 14px;
+    font-weight: 100;
+    padding-left: 434px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.getpw{
+    position: fixed;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    width: 450px;
+    display: none;
+    z-index: 11;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+.getpw-top{
+    font-size: 23px;
+    font-weight: 600;
+    padding: 20px;
+}
+.getpw-mid{
+    padding: 20px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    font-size: 19px;
+}
+.getpw-mid-top{
+    margin-bottom: 15px;
+}
+.getpw-mid-bottom input{
+    padding: 12px 210px 12px 15px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+}
+.getpw-bottom{
+    display: flex;
+    justify-content: right;
+    margin: 20px 10px;
+}
+.cancel{
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin: 0 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.bongmo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);           
+    -webkit-backdrop-filter: blur(4px);
+    z-index: 10;
+    display: none;
+}
+body.modal-open {
+    overflow: hidden;
+}
+.active {
+    display: block;
+}
